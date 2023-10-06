@@ -62,11 +62,13 @@ article a img:hover {
 .section-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px 20px;
+  gap: 20px 20px;
+  margin-bottom: 40px;
 }
 
 article:nth-of-type(1) {
   grid-column: 1/4;
+  margin-block: 10px;
 }
 
 .product-info-wrapper {
